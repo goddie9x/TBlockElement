@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
     "description": "App block element or class, id, ... in page",
-    "version": "1.0.2.3",
+    "version": "1.0.2.4",
     "icons": {
         "16": "./assets/image/icon-16.png",
         "32": "./assets/image/icon-32.png",
@@ -42,15 +42,38 @@
         "rule_resources": [{
             "id": "ruleset_1",
             "enabled": true,
-            "path": "assets/block/hostRules.json"
+            "path": "assets/block/hostRuleYtb.json"
         }, {
             "id": "ruleset_2",
             "enabled": true,
-            "path": "assets/block/ewprattenHostsRulesYT.json"
+            "path": "assets/block/hostRules.json"
         }, {
             "id": "ruleset_3",
             "enabled": true,
-            "path": "assets/block/lightswitch05HostsRulesFb.json"
+            "path": "assets/block/jerryn70HostsRulesYT.json"
+        }, {
+            "id": "ruleset_4",
+            "enabled": true,
+            "path": "assets/block/HostsRulesFb.json"
+        }]
+    },
+    "declarativeNetRequestFeedback": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "assets/block/hostRuleYtb.json"
+        }, {
+            "id": "ruleset_2",
+            "enabled": true,
+            "path": "assets/block/hostRules.json"
+        }, {
+            "id": "ruleset_3",
+            "enabled": true,
+            "path": "assets/block/jerryn70HostsRulesYT.json"
+        }, {
+            "id": "ruleset_4",
+            "enabled": true,
+            "path": "assets/block/HostsRulesFb.json"
         }]
     },
     "web_accessible_resources": [{
