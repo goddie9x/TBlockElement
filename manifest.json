@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
     "description": "App block element or class, id, ... in page",
-    "version": "1.0.3.4",
+    "version": "1.0.4.6",
     "icons": {
         "16": "./assets/image/icon-16.png",
         "32": "./assets/image/icon-32.png",
@@ -31,9 +31,6 @@
     ],
     "host_permissions": [
         "<all_urls>"
-    ],
-    "optional_host_permissions": [
-        "*://*/*"
     ],
     "declarative_net_request": {
         "rule_resources": [{
