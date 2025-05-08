@@ -1,0 +1,212 @@
+{
+  "appName": {
+    "message": "Cài đặt TBlock"
+  },
+  "generalSettingMenu": {
+    "message": "Cài đặt chung"
+  },
+  "blockingSelectorMenu": {
+    "message": "Chặn theo selector"
+  },
+  "blockingElementMenu": {
+    "message": "Chặn theo phần tử"
+  },
+  "blockHostMenu": {
+    "message": "Chặn host"
+  },
+  "userGuideMenu": {
+    "message": "Hướng dẫn sử dụng"
+  },
+  "aboutMeMenu": {
+    "message": "Về tôi"
+  },
+  "generalSettingTitle": {
+    "message": "Cài đặt chung"
+  },
+  "quickBlockSettingTitle": {
+    "message": "Cài đặt chặn nhanh"
+  },
+  "showBlockDialogLabel": {
+    "message": "Hiển thị hộp thoại chặn"
+  },
+  "defaultQuickBlockLabel": {
+    "message": "Chặn nhanh mặc định (Thiết lập nếu bạn ẩn bảng chọn trong chặn nhanh):"
+  },
+  "blockTypeTableHeader": {
+    "message": "Kiểu chặn"
+  },
+  "actionTableHeader": {
+    "message": "Hành động"
+  },
+  "unblockCopySettingTitle": {
+    "message": "Cài đặt mở khóa sao chép"
+  },
+  "enableUnblockCopyLabel": {
+    "message": "Bật mở khóa sao chép"
+  },
+  "unblockCopyLevelLabel": {
+    "message": "Cấp độ mở khóa sao chép (khuyến nghị 4):"
+  },
+  "unblockScrollSettingTitle": {
+    "message": "Cài đặt mở khóa cuộn"
+  },
+  "enableUnblockScrollLabel": {
+    "message": "Bật mở khóa cuộn:"
+  },
+  "unblockScrollLevelLabel": {
+    "message": "Cấp độ mở khóa cuộn:"
+  },
+  "blockingSelectorTitle": {
+    "message": "Chặn theo selector"
+  },
+  "enableEditTextLabel": {
+    "message": "Bật chỉnh sửa dưới dạng văn bản thô (có thể nhanh nhưng dễ nhầm lẫn - đọc hướng dẫn)"
+  },
+  "addNewRuleButton": {
+    "message": "Thêm luật mới"
+  },
+  "importRuleButton": {
+    "message": "Nhập luật"
+  },
+  "exportRuleButton": {
+    "message": "Xuất luật"
+  },
+  "saveButton": {
+    "message": "Lưu"
+  },
+  "removeButton": {
+    "message": "Xóa"
+  },
+  "editButton": {
+    "message": "Sửa"
+  },
+  "cancelButton": {
+    "message": "Hủy"
+  },
+  "blockHostTitle": {
+    "message": "Chặn host"
+  },
+  "userGuideTitle": {
+    "message": "Hướng dẫn sử dụng"
+  },
+  "userGuideSubtitle": {
+    "message": "các liên kết youtube dưới đây sẽ giúp bạn hiểu cách sử dụng công cụ này"
+  },
+  "videoQuickBlock": {
+    "message": "chặn nhanh, cài đặt chặn nhanh"
+  },
+  "videoUnblock": {
+    "message": "mở khóa sao chép, mở khóa cuộn và cài đặt của chúng"
+  },
+  "videoBlocking": {
+    "message": "chặn selector, chặn phần tử và cài đặt"
+  },
+  "aboutMeTitle": {
+    "message": "Về tôi"
+  },
+  "creatorInfo": {
+    "message": "Người tạo: Hoàng Minh Tâm"
+  },
+  "contactMe": {
+    "message": "Bạn có thể liên hệ với tôi qua:"
+  },
+  "noDataAvailable": {
+    "message": "Không có dữ liệu"
+  },
+  "errorTitle": {
+    "message": "Lỗi"
+  },
+  "successTitle": {
+    "message": "Thành công"
+  },
+  "fillAllFieldsError": {
+    "message": "Vui lòng điền tất cả các trường"
+  },
+  "saveSuccessMessage": {
+    "message": "Lưu thành công"
+  },
+  "importSuccessMessage": {
+    "message": "Nhập thành công"
+  },
+  "importFailedMessage": {
+    "message": "Nhập thất bại"
+  },
+  "noRuleDataError": {
+    "message": "Không có dữ liệu định nghĩa cho luật này"
+  },
+  "invalidDataFormatError": {
+    "message": "Định dạng dữ liệu không hợp lệ"
+  },
+  "rulesNotValidError": {
+    "message": "Các luật không hợp lệ"
+  },
+  "errorWhileSaving": {
+    "message": "Lỗi trong khi lưu"
+  },
+  "removeSelectorType": {
+    "message": "Xóa selector"
+  },
+  "removeElementType": {
+    "message": "Xóa phần tử"
+  },
+  "createdAtTooltip": {
+    "message": "Tạo lúc: $CREATE_AT$",
+    "placeholders": {
+      "create_at": {
+        "content": "$1",
+        "example": "10:30 23/10/2023"
+      }
+    }
+  },
+  "languageLabel": {
+    "message": "Ngôn ngữ"
+  },
+  "somethingWentWrong": {
+    "message": "Something went wrong, please try again later."
+  },
+  "invalidSelectorError": {
+    "message": "Invalid selector"
+  },
+  "waitForPageLoad": {
+    "message": "Please wait for the page to load completely."
+  },
+  "selectElementTooltip": {
+    "message": "Select element"
+  },
+  "selectThisElement": {
+    "message": "select this element"
+  },
+  "queryLevelTooltip": {
+    "message": "Query level"
+  },
+  "previewButton": {
+    "message": "Preview"
+  },
+  "pickButton": {
+    "message": "Pick"
+  },
+  "repickElementTooltip": {
+    "message": "Re-pick element"
+  },
+  "quitButton": {
+    "message": "Quit"
+  },
+  "relativeFilterTitle": {
+    "message": "Relative filter"
+  },
+  "createRemoveSelectorButton": {
+    "message": "Create remove Selector"
+  },
+  "createRemoveSelectorTooltip": {
+    "message": "Create rule just remove selector"
+  },
+  "createRemoveElementButton": {
+    "message": "Create remove element"
+  },
+  "createRemoveElementTooltip": {
+    "message": "Create rule remove element"
+  },
+  "adSkippedLog": {
+    "message": "Ad skipped"
+  }
+}

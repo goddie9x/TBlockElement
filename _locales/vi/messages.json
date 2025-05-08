@@ -1,0 +1,213 @@
+{
+  "appName": {
+    "message": "TBlock Setting",
+    "description": "The title of the options page."
+  },
+  "generalSettingMenu": {
+    "message": "General setting"
+  },
+  "blockingSelectorMenu": {
+    "message": "Blocking selector"
+  },
+  "blockingElementMenu": {
+    "message": "Blocking element"
+  },
+  "blockHostMenu": {
+    "message": "Block host"
+  },
+  "userGuideMenu": {
+    "message": "User guide"
+  },
+  "aboutMeMenu": {
+    "message": "About me"
+  },
+  "generalSettingTitle": {
+    "message": "General setting"
+  },
+  "quickBlockSettingTitle": {
+    "message": "Quick block setting"
+  },
+  "showBlockDialogLabel": {
+    "message": "Show block dialog"
+  },
+  "defaultQuickBlockLabel": {
+    "message": "Default quick block (Set if you hide block panel in quick block):"
+  },
+  "blockTypeTableHeader": {
+    "message": "Block type"
+  },
+  "actionTableHeader": {
+    "message": "Action"
+  },
+  "unblockCopySettingTitle": {
+    "message": "Unblock copy setting"
+  },
+  "enableUnblockCopyLabel": {
+    "message": "Enable unblock copy"
+  },
+  "unblockCopyLevelLabel": {
+    "message": "Unblock copy level (recommend 4):"
+  },
+  "unblockScrollSettingTitle": {
+    "message": "Unblock scroll setting"
+  },
+  "enableUnblockScrollLabel": {
+    "message": "Enable unblock scroll:"
+  },
+  "unblockScrollLevelLabel": {
+    "message": "Unblock scroll level:"
+  },
+  "blockingSelectorTitle": {
+    "message": "Blocking selector"
+  },
+  "enableEditTextLabel": {
+    "message": "Enable edit as raw text (it can be quick but you can get more confused - read the user guild)"
+  },
+  "addNewRuleButton": {
+    "message": "Add new rule"
+  },
+  "importRuleButton": {
+    "message": "Import rule"
+  },
+  "exportRuleButton": {
+    "message": "Export rule"
+  },
+  "saveButton": {
+    "message": "Save"
+  },
+  "removeButton": {
+    "message": "Remove"
+  },
+  "editButton": {
+    "message": "Edit"
+  },
+  "cancelButton": {
+    "message": "Cancel"
+  },
+  "blockHostTitle": {
+    "message": "Block host"
+  },
+  "userGuideTitle": {
+    "message": "User guide"
+  },
+  "userGuideSubtitle": {
+    "message": "youtube links below will help you to understand how to use this tool"
+  },
+  "videoQuickBlock": {
+    "message": "quick block, quick block setting"
+  },
+  "videoUnblock": {
+    "message": "unblock copy, unblock-scroll, and their setting"
+  },
+  "videoBlocking": {
+    "message": "blocking selector, blocking element and setting"
+  },
+  "aboutMeTitle": {
+    "message": "About me"
+  },
+  "creatorInfo": {
+    "message": "Creater: Hoàng Minh Tâm"
+  },
+  "contactMe": {
+    "message": "You can contact me by:"
+  },
+  "noDataAvailable": {
+    "message": "No data"
+  },
+  "errorTitle": {
+    "message": "Error"
+  },
+  "successTitle": {
+    "message": "Success"
+  },
+  "fillAllFieldsError": {
+    "message": "Please fill all fields"
+  },
+  "saveSuccessMessage": {
+    "message": "Saved successfully"
+  },
+  "importSuccessMessage": {
+    "message": "Import successfully"
+  },
+  "importFailedMessage": {
+    "message": "Import failed"
+  },
+  "noRuleDataError": {
+    "message": "There is no definition data of this rule"
+  },
+  "invalidDataFormatError": {
+    "message": "The data format is invalid"
+  },
+  "rulesNotValidError": {
+    "message": "The rules are not valid"
+  },
+  "errorWhileSaving": {
+    "message": "Error while saving"
+  },
+  "removeSelectorType": {
+    "message": "Remove selector"
+  },
+  "removeElementType": {
+    "message": "Remove element"
+  },
+  "createdAtTooltip": {
+    "message": "Created at: $CREATE_AT$",
+    "placeholders": {
+      "create_at": {
+        "content": "$1",
+        "example": "10:30 23/10/2023"
+      }
+    }
+  },
+  "languageLabel": {
+    "message": "Language"
+  },
+  "somethingWentWrong": {
+    "message": "Đã có lỗi xảy ra, vui lòng thử lại sau."
+  },
+  "invalidSelectorError": {
+    "message": "Selector không hợp lệ"
+  },
+  "waitForPageLoad": {
+    "message": "Vui lòng đợi trang tải hoàn tất."
+  },
+  "selectElementTooltip": {
+    "message": "Chọn phần tử"
+  },
+  "selectThisElement": {
+    "message": "Chọn phần tử này"
+  },
+  "queryLevelTooltip": {
+    "message": "Mức độ truy vấn"
+  },
+  "previewButton": {
+    "message": "Xem trước"
+  },
+  "pickButton": {
+    "message": "Chọn lại"
+  },
+  "repickElementTooltip": {
+    "message": "Chọn lại phần tử"
+  },
+  "quitButton": {
+    "message": "Thoát"
+  },
+  "relativeFilterTitle": {
+    "message": "Bộ lọc liên quan"
+  },
+  "createRemoveSelectorButton": {
+    "message": "Xóa xóa thuộc tính"
+  },
+  "createRemoveSelectorTooltip": {
+    "message": "Chỉ xóa thuộc tính của phần tử"
+  },
+  "createRemoveElementButton": {
+    "message": "Xóa phần tử"
+  },
+  "createRemoveElementTooltip": {
+    "message": "Xóa phần tử"
+  },
+  "adSkippedLog": {
+    "message": "Quảng cáo đã được bỏ qua"
+  }
+}
