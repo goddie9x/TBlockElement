@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
     "description": "App block element or class, id, ... in page",
-    "version": "1.0.4.8",
+    "version": "1.0.5.0",
     "default_locale": "vi",
     "icons": {
         "16": "assets/image/icon-16.png",
