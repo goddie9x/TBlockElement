@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính sách Quyền riêng tư - T-Block Extension</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            text-align: center;
+        }
+        .highlight {
+            background: #e8f4fd;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Chính sách Quyền riêng tư</h1>
+    <p><em>Cập nhật lần cuối: Ngày 5 tháng 3 năm 2026</em></p>
+
+    <p>Chào mừng bạn đến với <strong>T-Block Extension</strong>. Tôi cam kết bảo vệ quyền riêng tư của bạn và đảm bảo rằng trải nghiệm duyệt web của bạn là an toàn và minh bạch nhất có thể.</p>
+
+    <div class="highlight">
+        <strong>Cam kết cốt lõi:</strong> Tiện ích này không thu thập, không lưu trữ và không truyền tải bất kỳ dữ liệu cá nhân nào của bạn ra bên ngoài máy tính cá nhân.
+    </div>
+
+    <h2>1. Dữ liệu tôi xử lý</h2>
+    <p>Tiện ích hoạt động hoàn toàn cục bộ (local) trên trình duyệt của bạn. Các loại dữ liệu sau được xử lý:</p>
+    <ul>
+        <li><strong>Cài đặt cấu hình:</strong> Các tùy chọn của bạn (như bật/tắt chặn quảng cáo, tự động bỏ chặn copy) được lưu trữ bằng <code>chrome.storage.sync</code> để đồng nhất trải nghiệm trên các thiết bị bạn đăng nhập.</li>
+        <li><strong>Quy tắc chặn (Rules):</strong> Các selector HTML mà bạn chọn để ẩn hoặc xóa sẽ được lưu trữ cục bộ để áp dụng cho các lần truy cập sau.</li>
+        <li><strong>Dữ liệu tạm thời:</strong> Tiện ích phân tích cấu trúc DOM của trang web hiện tại để xác định quảng cáo hoặc các thành phần bị khóa (blur, chặn chuột phải).</li>
+    </ul>
+
+    <h2>2. Mục đích sử dụng</h2>
+    <p>Dữ liệu chỉ được sử dụng cho các chức năng kỹ thuật sau:</p>
+    <ul>
+        <li>Loại bỏ nội dung được tài trợ trên Facebook và quảng cáo trên Youtube.</li>
+        <li>Khôi phục quyền truy cập cơ bản (cuộn trang, sao chép văn bản, menu chuột phải) trên các trang web cố tình hạn chế người dùng.</li>
+        <li>Thực thi các quy tắc tùy chỉnh do người dùng thiết lập thông qua bộ chọn thành phần (Picker Panel).</li>
+    </ul>
+
+    <h2>3. Quyền hạn của tiện ích</h2>
+    <p>Tiện ích yêu cầu các quyền truy cập cần thiết để hoạt động:</p>
+    <ul>
+        <li><strong>Storage:</strong> Để lưu trữ các cài đặt cá nhân của bạn.</li>
+        <li><strong>Tabs/ActiveTab:</strong> Để tương tác với trang web bạn đang xem và thực hiện việc dọn dẹp nội dung.</li>
+        <li><strong>Host Permissions:</strong> Để áp dụng các quy tắc chặn trên các tên miền cụ thể (Facebook, Youtube, v.v.).</li>
+    </ul>
+
+    <h2>4. Chia sẻ dữ liệu với bên thứ ba</h2>
+    <p>Tôi <strong>KHÔNG</strong> bán, trao đổi hoặc chuyển giao dữ liệu của bạn cho bất kỳ bên thứ ba nào. Không có máy chủ trung gian, không có mã theo dõi (tracking) hoặc phân tích hành vi người dùng được tích hợp trong mã nguồn.</p>
+
+    <h2>5. Bảo mật</h2>
+    <p>Mọi dữ liệu tùy chỉnh của bạn được bảo mật bởi cơ chế bảo mật của trình duyệt Chrome. Vì tiện ích không có máy chủ riêng, dữ liệu của bạn chỉ tồn tại chừng nào bạn còn cài đặt tiện ích hoặc đồng bộ hóa tài khoản Google.</p>
+
+    <h2>6. Thay đổi chính sách</h2>
+    <p>Tôi có thể cập nhật chính sách này khi bổ sung tính năng mới. Mọi thay đổi sẽ được phản ánh qua ngày cập nhật ở đầu trang.</p>
+
+    <h2>7. Liên hệ</h2>
+    <p>Nếu bạn có bất kỳ câu hỏi nào về chính sách này hoặc mã nguồn của tiện ích, bạn có thể liên hệ với nhà phát triển thông qua trang cửa hàng Chrome Web Store.</p>
+
+    <div class="footer">
+        &copy; 2026 T-Block Extension. Bảo lưu mọi quyền.
+    </div>
+</div>
+
+</body>
+</html>
