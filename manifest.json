@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
     "description": "Awsome extension to block ads, trackers, and malicious sites on YouTube and Facebook...",
-    "version": "1.0.5.7",
+    "version": "1.0.6.0",
     "default_locale": "vi",
     "icons": {
         "16": "assets/image/icon-16.png",
