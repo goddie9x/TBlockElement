@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
     "description": "Awsome extension to block ads, trackers, and malicious sites on YouTube and Facebook...",
-    "version": "1.0.6.0",
+    "version": "1.0.6.1",
     "default_locale": "vi",
     "icons": {
         "16": "assets/image/icon-16.png",
@@ -14,7 +14,14 @@
     },
     "content_scripts": [{
         "matches": ["<all_urls>"],
-        "js": ["assets/js/content.js"],
+        "js": [
+            "assets/js/content/state.js",
+            "assets/js/content/utils.js",
+            "assets/js/content/unblock.js",
+            "assets/js/content/ads.js",
+            "assets/js/content/picker.js",
+            "assets/js/content/main.js"
+        ],
         "css": ["assets/css/all.min.css", "assets/css/common.css", "assets/css/content.css"],
         "all_frames": true,
         "match_about_blank": true
