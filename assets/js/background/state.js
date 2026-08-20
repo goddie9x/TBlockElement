@@ -1,0 +1,1 @@
+export const state={isEnableExtension:!0,crrId:0,IDBG:!1};
