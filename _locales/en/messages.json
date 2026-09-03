@@ -63,13 +63,13 @@
     "message": "Bật chỉnh sửa dưới dạng văn bản thô (có thể nhanh nhưng dễ nhầm lẫn - đọc hướng dẫn)"
   },
   "addNewRuleButton": {
-    "message": "Thêm luật mới"
+    "message": "Thêm quy tắc mới"
   },
   "importRuleButton": {
-    "message": "Nhập luật"
+    "message": "Nhập quy tắc"
   },
   "exportRuleButton": {
-    "message": "Xuất luật"
+    "message": "Xuất quy tắc"
   },
   "saveButton": {
     "message": "Lưu"
@@ -132,13 +132,13 @@
     "message": "Nhập thất bại"
   },
   "noRuleDataError": {
-    "message": "Không có dữ liệu định nghĩa cho luật này"
+    "message": "Không có dữ liệu định nghĩa cho quy tắc này"
   },
   "invalidDataFormatError": {
     "message": "Định dạng dữ liệu không hợp lệ"
   },
   "rulesNotValidError": {
-    "message": "Các luật không hợp lệ"
+    "message": "Các quy tắc không hợp lệ"
   },
   "errorWhileSaving": {
     "message": "Lỗi trong khi lưu"
@@ -208,5 +208,29 @@
   },
   "adSkippedLog": {
     "message": "Ad skipped"
+  },
+  "blockedPopupsMenu": {
+    "message": "Blocked popups"
+  },
+  "blockedPopupsTitle": {
+    "message": "Blocked popups"
+  },
+  "blockedPopupsHelp": {
+    "message": "Popups blocked on websites are listed here. Allow a host to open it and skip blocking next time. Google downloads are allowed by default."
+  },
+  "allowedPopupHostsTitle": {
+    "message": "Allowed popup hosts"
+  },
+  "blockedPopupLogTitle": {
+    "message": "Recently blocked"
+  },
+  "allowPopupButton": {
+    "message": "Allow"
+  },
+  "revokePopupAllowButton": {
+    "message": "Block again"
+  },
+  "popupBlockedNotice": {
+    "message": "Blocked popup"
   }
 }

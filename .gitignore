@@ -1,6 +1,3 @@
-.vscode/*
-.git
-assets/js/dist/*
-_metadata/*
-.vscode
-TBlockElement.zip
+_metadata/
+.vscode/
+*.zip

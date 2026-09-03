@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
-    "description": "Awsome extension to block ads, trackers, and malicious sites on YouTube and Facebook...",
-    "version": "1.0.6.4",
+    "description": "App block element or class, id, ... in page",
+    "version": "1.0.6.5",
     "default_locale": "vi",
     "icons": {
         "16": "assets/image/icon-16.png",
@@ -12,7 +12,8 @@
     "action": {
         "default_popup": "src/popup.html"
     },
-    "content_scripts": [{
+    "content_scripts": [
+        {
             "matches": [
                 "<all_urls>"
             ],
@@ -25,19 +26,26 @@
             "match_about_blank": true
         },
         {
-        "matches": ["<all_urls>"],
-        "js": [
-            "assets/js/content/state.js",
-            "assets/js/content/utils.js",
-            "assets/js/content/unblock.js",
-            "assets/js/content/ads.js",
-            "assets/js/content/picker.js",
-            "assets/js/content/main.js"
-        ],
-        "css": ["assets/css/all.min.css", "assets/css/common.css", "assets/css/content.css"],
-        "all_frames": true,
-        "match_about_blank": true
-    }],
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "assets/js/content/state.js",
+                "assets/js/content/utils.js",
+                "assets/js/content/unblock.js",
+                "assets/js/content/ads.js",
+                "assets/js/content/picker.js",
+                "assets/js/content/main.js"
+            ],
+            "css": [
+                "assets/css/all.min.css",
+                "assets/css/common.css",
+                "assets/css/content.css"
+            ],
+            "all_frames": true,
+            "match_about_blank": true
+        }
+    ],
     "options_page": "src/options.html",
     "permissions": [
         "activeTab",
@@ -54,46 +62,56 @@
         "<all_urls>"
     ],
     "declarative_net_request": {
-        "rule_resources": [{
-            "id": "ruleset_1",
-            "enabled": true,
-            "path": "assets/block/hostRuleYtb.json"
-        }, {
-            "id": "ruleset_2",
-            "enabled": true,
-            "path": "assets/block/hostRules.json"
-        }, {
-            "id": "ruleset_3",
-            "enabled": true,
-            "path": "assets/block/jerryn70HostsRulesYT.json"
-        }, {
-            "id": "ruleset_4",
-            "enabled": true,
-            "path": "assets/block/HostsRulesFb.json"
-        }]
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "assets/block/hostRuleYtb.json"
+            },
+            {
+                "id": "ruleset_2",
+                "enabled": true,
+                "path": "assets/block/hostRules.json"
+            },
+            {
+                "id": "ruleset_3",
+                "enabled": true,
+                "path": "assets/block/jerryn70HostsRulesYT.json"
+            },
+            {
+                "id": "ruleset_4",
+                "enabled": true,
+                "path": "assets/block/HostsRulesFb.json"
+            }
+        ]
     },
-    "web_accessible_resources": [{
-        "resources": ["assets/webfonts/fa-brands-400.ttf",
-            "assets/webfonts/fa-brands-400.woff",
-            "assets/webfonts/fa-brands-400.woff2",
-            "assets/webfonts/fa-duotone-900.ttf",
-            "assets/webfonts/fa-duotone-900.woff",
-            "assets/webfonts/fa-duotone-900.woff2",
-            "assets/webfonts/fa-light-300.ttf",
-            "assets/webfonts/fa-light-300.woff",
-            "assets/webfonts/fa-light-300.woff2",
-            "assets/webfonts/fa-regular-400.ttf",
-            "assets/webfonts/fa-regular-400.woff",
-            "assets/webfonts/fa-regular-400.woff2",
-            "assets/webfonts/fa-solid-900.ttf",
-            "assets/webfonts/fa-solid-900.woff",
-            "assets/webfonts/fa-solid-900.woff2",
-            "assets/webfonts/fa-thin-100.ttf",
-            "assets/webfonts/fa-thin-100.woff",
-            "assets/webfonts/fa-thin-100.woff2"
-        ],
-        "matches": ["<all_urls>"]
-    }],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "assets/webfonts/fa-brands-400.ttf",
+                "assets/webfonts/fa-brands-400.woff",
+                "assets/webfonts/fa-brands-400.woff2",
+                "assets/webfonts/fa-duotone-900.ttf",
+                "assets/webfonts/fa-duotone-900.woff",
+                "assets/webfonts/fa-duotone-900.woff2",
+                "assets/webfonts/fa-light-300.ttf",
+                "assets/webfonts/fa-light-300.woff",
+                "assets/webfonts/fa-light-300.woff2",
+                "assets/webfonts/fa-regular-400.ttf",
+                "assets/webfonts/fa-regular-400.woff",
+                "assets/webfonts/fa-regular-400.woff2",
+                "assets/webfonts/fa-solid-900.ttf",
+                "assets/webfonts/fa-solid-900.woff",
+                "assets/webfonts/fa-solid-900.woff2",
+                "assets/webfonts/fa-thin-100.ttf",
+                "assets/webfonts/fa-thin-100.woff",
+                "assets/webfonts/fa-thin-100.woff2"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
     "background": {
         "service_worker": "assets/js/background/main.js",
         "type": "module"

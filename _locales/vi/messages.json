@@ -209,5 +209,29 @@
   },
   "adSkippedLog": {
     "message": "Quảng cáo đã được bỏ qua"
+  },
+  "blockedPopupsMenu": {
+    "message": "Popup đã chặn"
+  },
+  "blockedPopupsTitle": {
+    "message": "Popup đã chặn"
+  },
+  "blockedPopupsHelp": {
+    "message": "Các popup bị chặn trên web sẽ hiện ở đây. Cho phép một host để mở và không chặn những lần sau. Tải file Google được cho phép mặc định."
+  },
+  "allowedPopupHostsTitle": {
+    "message": "Host được cho phép"
+  },
+  "blockedPopupLogTitle": {
+    "message": "Vừa bị chặn"
+  },
+  "allowPopupButton": {
+    "message": "Cho phép"
+  },
+  "revokePopupAllowButton": {
+    "message": "Chặn lại"
+  },
+  "popupBlockedNotice": {
+    "message": "Đã chặn popup"
   }
 }
