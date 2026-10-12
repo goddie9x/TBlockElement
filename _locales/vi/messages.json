@@ -1,157 +1,186 @@
 {
   "appName": {
-    "message": "TBlock Setting",
-    "description": "The title of the options page."
+    "message": "Cài đặt TBlock"
+  },
+  "appDescription": {
+    "message": "Chặn element, class, id... trên trang web"
   },
   "generalSettingMenu": {
-    "message": "General setting"
+    "message": "Cài đặt chung"
   },
   "blockingSelectorMenu": {
-    "message": "Blocking selector"
+    "message": "Chặn theo selector"
   },
   "blockingElementMenu": {
-    "message": "Blocking element"
+    "message": "Chặn theo phần tử"
   },
   "blockHostMenu": {
-    "message": "Block host"
+    "message": "Chặn host"
   },
   "userGuideMenu": {
-    "message": "User guide"
+    "message": "Hướng dẫn sử dụng"
   },
   "aboutMeMenu": {
-    "message": "About me"
+    "message": "Về tôi"
   },
   "generalSettingTitle": {
-    "message": "General setting"
+    "message": "Cài đặt chung"
   },
   "quickBlockSettingTitle": {
-    "message": "Quick block setting"
+    "message": "Cài đặt chặn nhanh"
   },
   "showBlockDialogLabel": {
-    "message": "Show block dialog"
+    "message": "Hiển thị hộp thoại chặn"
   },
   "defaultQuickBlockLabel": {
-    "message": "Default quick block (Set if you hide block panel in quick block):"
+    "message": "Chặn nhanh mặc định (Thiết lập nếu bạn ẩn bảng chọn trong chặn nhanh):"
   },
   "blockTypeTableHeader": {
-    "message": "Block type"
+    "message": "Kiểu chặn"
   },
   "actionTableHeader": {
-    "message": "Action"
+    "message": "Hành động"
   },
   "unblockCopySettingTitle": {
-    "message": "Unblock copy setting"
+    "message": "Cài đặt mở khóa sao chép"
   },
   "enableUnblockCopyLabel": {
-    "message": "Enable unblock copy"
+    "message": "Bật mở khóa sao chép"
   },
   "unblockCopyLevelLabel": {
-    "message": "Unblock copy level (recommend 4):"
+    "message": "Cấp độ mở khóa sao chép (khuyến nghị 4):"
   },
   "unblockScrollSettingTitle": {
-    "message": "Unblock scroll setting"
+    "message": "Cài đặt mở khóa cuộn"
   },
   "enableUnblockScrollLabel": {
-    "message": "Enable unblock scroll:"
+    "message": "Bật mở khóa cuộn:"
   },
   "unblockScrollLevelLabel": {
-    "message": "Unblock scroll level:"
+    "message": "Cấp độ mở khóa cuộn:"
   },
   "blockingSelectorTitle": {
-    "message": "Blocking selector"
+    "message": "Chặn theo selector"
   },
   "enableEditTextLabel": {
-    "message": "Enable edit as raw text (it can be quick but you can get more confused - read the user guild)"
+    "message": "Bật chỉnh sửa dưới dạng văn bản thô (có thể nhanh nhưng dễ nhầm lẫn - đọc hướng dẫn)"
   },
   "addNewRuleButton": {
-    "message": "Add new rule"
+    "message": "Thêm quy tắc mới"
   },
   "importRuleButton": {
-    "message": "Import rule"
+    "message": "Nhập quy tắc"
   },
   "exportRuleButton": {
-    "message": "Export rule"
+    "message": "Xuất quy tắc"
   },
   "saveButton": {
-    "message": "Save"
+    "message": "Lưu"
   },
   "removeButton": {
-    "message": "Remove"
+    "message": "Xóa"
   },
   "editButton": {
-    "message": "Edit"
+    "message": "Sửa"
   },
   "cancelButton": {
-    "message": "Cancel"
+    "message": "Hủy"
   },
   "blockHostTitle": {
-    "message": "Block host"
+    "message": "Chặn host"
   },
   "userGuideTitle": {
-    "message": "User guide"
+    "message": "Hướng dẫn sử dụng"
   },
   "userGuideSubtitle": {
-    "message": "youtube links below will help you to understand how to use this tool"
+    "message": "các liên kết youtube dưới đây sẽ giúp bạn hiểu cách sử dụng công cụ này"
   },
   "videoQuickBlock": {
-    "message": "quick block, quick block setting"
+    "message": "chặn nhanh, cài đặt chặn nhanh"
   },
   "videoUnblock": {
-    "message": "unblock copy, unblock-scroll, and their setting"
+    "message": "mở khóa sao chép, mở khóa cuộn và cài đặt của chúng"
   },
   "videoBlocking": {
-    "message": "blocking selector, blocking element and setting"
+    "message": "chặn selector, chặn phần tử và cài đặt"
   },
   "aboutMeTitle": {
-    "message": "About me"
+    "message": "Về tôi"
   },
   "creatorInfo": {
-    "message": "Creater: Hoàng Minh Tâm"
+    "message": "Người tạo: Hoàng Minh Tâm"
   },
   "contactMe": {
-    "message": "You can contact me by:"
+    "message": "Bạn có thể liên hệ với tôi qua:"
   },
   "noDataAvailable": {
-    "message": "No data"
+    "message": "Không có dữ liệu"
   },
   "errorTitle": {
-    "message": "Error"
+    "message": "Lỗi"
   },
   "successTitle": {
-    "message": "Success"
+    "message": "Thành công"
+  },
+  "blockElementSuccess": {
+    "message": "Đã chặn element"
+  },
+  "undoButton": {
+    "message": "Hoàn tác"
+  },
+  "copiedMessage": {
+    "message": "Đã copy vào clipboard"
+  },
+  "selectorSuggested": {
+    "message": "Đã chọn selector tối ưu"
+  },
+  "copyCssButton": {
+    "message": "⧉ CSS"
+  },
+  "copyXPathButton": {
+    "message": "⧉ XPath"
+  },
+  "suggestSelectorButton": {
+    "message": "★ Gợi ý"
+  },
+  "blockSimilarButton": {
+    "message": "Block tương tự"
+  },
+  "multiPickLabel": {
+    "message": "Chặn tiếp sau khi block"
   },
   "fillAllFieldsError": {
-    "message": "Please fill all fields"
+    "message": "Vui lòng điền tất cả các trường"
   },
   "saveSuccessMessage": {
-    "message": "Saved successfully"
+    "message": "Lưu thành công"
   },
   "importSuccessMessage": {
-    "message": "Import successfully"
+    "message": "Nhập thành công"
   },
   "importFailedMessage": {
-    "message": "Import failed"
+    "message": "Nhập thất bại"
   },
   "noRuleDataError": {
-    "message": "There is no definition data of this rule"
+    "message": "Không có dữ liệu định nghĩa cho quy tắc này"
   },
   "invalidDataFormatError": {
-    "message": "The data format is invalid"
+    "message": "Định dạng dữ liệu không hợp lệ"
   },
   "rulesNotValidError": {
-    "message": "The rules are not valid"
+    "message": "Các quy tắc không hợp lệ"
   },
   "errorWhileSaving": {
-    "message": "Error while saving"
+    "message": "Lỗi trong khi lưu"
   },
   "removeSelectorType": {
-    "message": "Remove selector"
+    "message": "Xóa selector"
   },
   "removeElementType": {
-    "message": "Remove element"
+    "message": "Xóa phần tử"
   },
   "createdAtTooltip": {
-    "message": "Created at: $CREATE_AT$",
+    "message": "Tạo lúc: $CREATE_AT$",
     "placeholders": {
       "create_at": {
         "content": "$1",
@@ -160,7 +189,7 @@
     }
   },
   "languageLabel": {
-    "message": "Language"
+    "message": "Ngôn ngữ"
   },
   "somethingWentWrong": {
     "message": "Đã có lỗi xảy ra, vui lòng thử lại sau."
@@ -192,6 +221,288 @@
   "quitButton": {
     "message": "Thoát"
   },
+  "applyButton": {
+    "message": "Áp dụng"
+  },
+  "selectorNotFoundError": {
+    "message": "Không tìm thấy phần tử nào khớp selector này"
+  },
+  "searchRulesPlaceholder": {
+    "message": "Tìm host hoặc selector..."
+  },
+  "noMatchingRules": {
+    "message": "Không có rule nào khớp"
+  },
+  "confirmClearData": {
+    "message": "Xóa TOÀN BỘ rules và cài đặt? Không thể hoàn tác."
+  },
+  "framePickButton": {
+    "message": "🖼 Frame"
+  },
+  "noFramesFound": {
+    "message": "Không tìm thấy iframe nào"
+  },
+  "ytHideShortsLabel": {
+    "message": "Ẩn Shorts"
+  },
+  "ytHideCommentsLabel": {
+    "message": "Ẩn bình luận"
+  },
+  "ytHideSidebarLabel": {
+    "message": "Ẩn cột video đề xuất"
+  },
+  "blockedPageRule": {
+    "message": "Rule đã chặn"
+  },
+  "blockedPageFocusRule": {
+    "message": "Bị chặn bởi Focus mode"
+  },
+  "blockedPageFocusUntil": {
+    "message": "Focus mode kết thúc lúc"
+  },
+  "blockedPageReportFp": {
+    "message": "⚠ Chặn nhầm"
+  },
+  "blockedPageFpThanks": {
+    "message": "Đã ghi nhận, cảm ơn bạn!"
+  },
+  "openBgTabButton": {
+    "message": "Mở tab nền"
+  },
+  "allowOnceButton": {
+    "message": "Cho phép 1 lần"
+  },
+  "pinLockTitle": {
+    "message": "TBlock bị khóa"
+  },
+  "pinLockHint": {
+    "message": "Nhập PIN để mở cài đặt"
+  },
+  "pinInputPlaceholder": {
+    "message": "Nhập PIN"
+  },
+  "pinUnlockButton": {
+    "message": "Mở khóa"
+  },
+  "pinWrong": {
+    "message": "PIN sai, thử lại"
+  },
+  "pinSettingsTitle": {
+    "message": "Khóa cài đặt bằng PIN"
+  },
+  "pinSettingsHint": {
+    "message": "Đặt PIN để khóa trang cài đặt (tối thiểu 4 ký tự)."
+  },
+  "pinSetButton": {
+    "message": "Đặt PIN"
+  },
+  "pinRemoveButton": {
+    "message": "Gỡ PIN"
+  },
+  "pinTooShort": {
+    "message": "PIN phải có ít nhất 4 ký tự"
+  },
+  "pinSetSuccess": {
+    "message": "Đã đặt PIN"
+  },
+  "pinRemoveConfirm": {
+    "message": "Gỡ khóa PIN?"
+  },
+  "ruleTesterPlaceholder": {
+    "message": "Nhập selector để test, vd: .ad-banner"
+  },
+  "ruleTesterButton": {
+    "message": "Test trên tab hiện tại"
+  },
+  "popupBrokenSite": {
+    "message": "Rule làm hỏng site này"
+  },
+  "brokenSiteTitle": {
+    "message": "Rules đang áp dụng cho site này (bấm ⏸ để tắt):"
+  },
+  "quotaTitle": {
+    "message": "Dung lượng lưu trữ"
+  },
+  "quotaHint": {
+    "message": "Chrome giới hạn sync storage 100KB. Vượt quá sẽ gây lỗi lưu rule."
+  },
+  "pauseTitle": {
+    "message": "Tạm dừng chặn"
+  },
+  "pauseUntilTomorrow": {
+    "message": "⏸ đến mai"
+  },
+  "annoyancesTitle": {
+    "message": "Gói chặn phiền nhiễu"
+  },
+  "annoyancesHint": {
+    "message": "Tự động chặn các element gây phiền nhiễu thường gặp. Bật 1-click."
+  },
+  "annoyancesCookieLabel": {
+    "message": "Banner cookie / consent"
+  },
+  "annoyancesNewsletterLabel": {
+    "message": "Popup newsletter / đăng ký"
+  },
+  "annoyancesStickyVideoLabel": {
+    "message": "Video dính (sticky)"
+  },
+  "exceptionsTitle": {
+    "message": "Ngoại lệ (không bao giờ chặn)"
+  },
+  "exceptionsHint": {
+    "message": "Element khớp selector này sẽ không bị chặn dù rule khác có trúng."
+  },
+  "exceptionAddButton": {
+    "message": "Thêm ngoại lệ"
+  },
+  "focusModeTitle": {
+    "message": "Focus mode (hẹn giờ chặn)"
+  },
+  "focusModeHint": {
+    "message": "Trong khung giờ focus, các site trong danh sách sẽ bị chặn."
+  },
+  "focusModeEnableLabel": {
+    "message": "Bật focus mode"
+  },
+  "focusModeStartLabel": {
+    "message": "Bắt đầu"
+  },
+  "focusModeEndLabel": {
+    "message": "Kết thúc"
+  },
+  "focusModeHostsPlaceholder": {
+    "message": "facebook.com\nyoutube.com\nmỗi dòng 1 host"
+  },
+  "focusModeSaved": {
+    "message": "Đã lưu focus mode"
+  },
+  "backupTitle": {
+    "message": "Sao lưu & Khôi phục"
+  },
+  "backupHint": {
+    "message": "Xuất toàn bộ rules + cài đặt ra 1 file JSON, hoặc khôi phục từ file."
+  },
+  "backupAllButton": {
+    "message": "⬇ Tải file backup"
+  },
+  "restoreBackupButton": {
+    "message": "⬆ Khôi phục từ file"
+  },
+  "driveBackupButton": {
+    "message": "☁ Backup lên Drive"
+  },
+  "autoBackupLocalLabel": {
+    "message": "Tự động backup mỗi ngày (lưu trong máy)"
+  },
+  "lastBackupLabel": {
+    "message": "Backup gần nhất"
+  },
+  "backupSuccess": {
+    "message": "Đã tạo file backup"
+  },
+  "backupFailed": {
+    "message": "Tạo backup thất bại"
+  },
+  "backupInvalid": {
+    "message": "File backup không hợp lệ"
+  },
+  "restoreBackupConfirm": {
+    "message": "Ghi đè toàn bộ rules và cài đặt hiện tại bằng file backup?"
+  },
+  "driveOAuthUnavailable": {
+    "message": "Cần cấu hình OAuth client ID trong manifest.json trước"
+  },
+  "driveAuthFailed": {
+    "message": "Đăng nhập Google thất bại"
+  },
+  "driveBackupSuccess": {
+    "message": "Đã backup lên Google Drive"
+  },
+  "driveBackupFailed": {
+    "message": "Backup lên Drive thất bại"
+  },
+  "ublockImportTitle": {
+    "message": "Import uBlock Origin filters"
+  },
+  "ublockImportHint": {
+    "message": "Dán nội dung tab \"My filters\" của uBlock Origin. Hỗ trợ domain##selector và ||domain^."
+  },
+  "ublockImportPlaceholder": {
+    "message": "example.com##.ad-banner\n||ads.example.com^"
+  },
+  "ublockImportButton": {
+    "message": "Import filters"
+  },
+  "filterSubsTitle": {
+    "message": "Subscribe filter lists"
+  },
+  "filterSubsHint": {
+    "message": "Thêm URL danh sách filter (định dạng uBlock/Adblock). Tự cập nhật mỗi 12 giờ."
+  },
+  "filterSubAddButton": {
+    "message": "Thêm"
+  },
+  "filterSubEmpty": {
+    "message": "Chưa có subscription nào"
+  },
+  "filterSubUpdateButton": {
+    "message": "Cập nhật ngay"
+  },
+  "filterSubInvalidUrl": {
+    "message": "URL không hợp lệ"
+  },
+  "duplicateRuleWarning": {
+    "message": "Cảnh báo: đã có rule trùng hoặc lồng nhau với selector này"
+  },
+  "trashMenu": {
+    "message": "Thùng rác"
+  },
+  "trashHint": {
+    "message": "Rule đã xóa được giữ 30 ngày, có thể khôi phục."
+  },
+  "emptyTrashButton": {
+    "message": "Xóa sạch thùng rác"
+  },
+  "trashDeletedAtHeader": {
+    "message": "Đã xóa lúc"
+  },
+  "trashEmpty": {
+    "message": "Thùng rác trống"
+  },
+  "restoreButton": {
+    "message": "Khôi phục"
+  },
+  "deleteForeverButton": {
+    "message": "Xóa vĩnh viễn"
+  },
+  "groupTableHeader": {
+    "message": "Nhóm"
+  },
+  "statusTableHeader": {
+    "message": "Trạng thái"
+  },
+  "bulkEnable": {
+    "message": "Bật đã chọn"
+  },
+  "bulkDisable": {
+    "message": "Tắt đã chọn"
+  },
+  "bulkDelete": {
+    "message": "Xóa đã chọn"
+  },
+  "bulkSetGroup": {
+    "message": "Đặt nhóm"
+  },
+  "commandQuickSelect": {
+    "message": "Chặn nhanh element (quick select)"
+  },
+  "commandStartSelect": {
+    "message": "Mở picker chọn element"
+  },
+  "statsBlockedOnSite": {
+    "message": "Đã chặn trên site này"
+  },
   "relativeFilterTitle": {
     "message": "Bộ lọc liên quan"
   },
@@ -217,7 +528,13 @@
     "message": "Popup đã chặn"
   },
   "blockedPopupsHelp": {
-    "message": "Các popup bị chặn trên web sẽ hiện ở đây. Cho phép một host để mở và không chặn những lần sau. Tải file Google được cho phép mặc định."
+    "message": "Các popup và điều hướng sang domain khác bị chặn sẽ hiện ở đây. Cho phép một host để mở và không chặn những lần sau."
+  },
+  "blockCrossDomainNavLabel": {
+    "message": "Chặn tab mới / điều hướng khác domain"
+  },
+  "blockCrossDomainNavHelp": {
+    "message": "Mặc định bật. Khi trang cố mở tab mới hoặc chuyển hướng tới domain khác, TBlock sẽ chặn. Click link cùng trang (cùng domain) vẫn hoạt động. Tải file khi bạn bấm vẫn được phép."
   },
   "allowedPopupHostsTitle": {
     "message": "Host được cho phép"
@@ -233,5 +550,128 @@
   },
   "popupBlockedNotice": {
     "message": "Đã chặn popup"
+  },
+  "youtubeAdSettingTitle": {
+    "message": "YouTube quảng cáo"
+  },
+  "youtubeAdSettingHelp": {
+    "message": "Khi đang quảng cáo, TBlock sẽ tăng tốc video. Tự bấm Bỏ qua là tùy chọn và mặc định tắt."
+  },
+  "youtubeAdPlaybackRateLabel": {
+    "message": "Tốc độ quảng cáo"
+  },
+  "youtubeAdAutoSkipLabel": {
+    "message": "Tự bấm Bỏ qua"
+  },
+  "youtubeAdAutoSkipHelp": {
+    "message": "Mặc định tắt. Bật tùy chọn này có thể khiến YouTube dễ phát hiện hành vi bỏ quảng cáo hơn."
+  },
+  "blockedPageTitle": {
+    "message": "Trang này đã bị TBlock chặn"
+  },
+  "blockedPageDesc": {
+    "message": "Host này nằm trong danh sách chặn. Bạn có thể bỏ chặn ngay tại đây."
+  },
+  "blockedPageUnblock": {
+    "message": "Bỏ chặn và tiếp tục"
+  },
+  "blockedPageBack": {
+    "message": "Quay lại"
+  },
+  "blockedPageUnknownHost": {
+    "message": "Host không xác định"
+  },
+  "unblockedHostsTitle": {
+    "message": "Host đã bỏ chặn"
+  },
+  "themeLabel": {
+    "message": "Giao diện"
+  },
+  "themeLight": {
+    "message": "Sáng"
+  },
+  "themeDark": {
+    "message": "Tối"
+  },
+  "themeSystem": {
+    "message": "Hệ thống"
+  },
+  "popupTogglePower": {
+    "message": "Bật/tắt tiện ích trên trang này"
+  },
+  "popupReloadPage": {
+    "message": "Tải lại trang"
+  },
+  "popupQuickBlock": {
+    "message": "Chặn nhanh"
+  },
+  "popupStartSelect": {
+    "message": "Chọn phần tử"
+  },
+  "popupSettings": {
+    "message": "Cài đặt"
+  },
+  "popupMore": {
+    "message": "Thêm"
+  },
+  "popupUnblockCopy": {
+    "message": "Bỏ chặn copy"
+  },
+  "popupUnblockScroll": {
+    "message": "Bỏ chặn cuộn"
+  },
+  "popupUnblockBlur": {
+    "message": "Bỏ chặn làm mờ"
+  },
+  "popupUnblockContextMenu": {
+    "message": "Bỏ chặn menu chuột phải"
+  },
+  "popupYoutubeUnstoppable": {
+    "message": "YouTube không dừng"
+  },
+  "popupClearData": {
+    "message": "Xóa dữ liệu"
+  },
+  "popupRate": {
+    "message": "Đánh giá"
+  },
+  "blockYoutubeChannelMenu": {
+    "message": "Chặn kênh YouTube"
+  },
+  "blockYoutubeChannelTitle": {
+    "message": "Chặn kênh YouTube"
+  },
+  "blockYoutubeChannelHelp": {
+    "message": "Ẩn video và nội dung kênh đã chặn trên YouTube (trang chủ, tìm kiếm, xem video, Shorts, trình phát nhỏ, trang kênh). Hãy dùng đúng @handle hiện trên kênh (ví dụ: @samuriceaudio)."
+  },
+  "blockYoutubeChannelPlaceholder": {
+    "message": "Đúng @handle, URL kênh, hoặc UC…"
+  },
+  "blockYoutubeChannelAddButton": {
+    "message": "Chặn kênh"
+  },
+  "blockYoutubeChannelColumn": {
+    "message": "Kênh"
+  },
+  "blockYoutubeChannelRemoveButton": {
+    "message": "Gỡ"
+  },
+  "blockYoutubeChannelInvalid": {
+    "message": "Kênh không hợp lệ. Dùng @handle, /channel/UC…, hoặc URL kênh."
+  },
+  "youtubeChannelBlockedPage": {
+    "message": "Kênh YouTube này đã bị TBlock chặn."
+  },
+  "youtubeChannelBlockedVideo": {
+    "message": "Video này thuộc kênh đã bị TBlock chặn."
+  },
+  "youtubeChannelHomeButton": {
+    "message": "Về trang chủ"
+  },
+  "youtubeChannelBlockButton": {
+    "message": "Chặn kênh"
+  },
+  "youtubeChannelBlockedButton": {
+    "message": "Đã chặn kênh"
   }
 }

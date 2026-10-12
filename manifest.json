@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
-    "description": "App block element or class, id, ... in page",
-    "version": "1.0.6.5",
+    "description": "__MSG_appDescription__",
+    "version": "1.0.6.18",
     "default_locale": "vi",
     "icons": {
         "16": "assets/image/icon-16.png",
@@ -33,7 +33,10 @@
                 "assets/js/content/state.js",
                 "assets/js/content/utils.js",
                 "assets/js/content/unblock.js",
+                "assets/js/content/youtube-ads.js",
+                "assets/js/content/youtube-channels.js",
                 "assets/js/content/ads.js",
+                "assets/js/content/annoyances.js",
                 "assets/js/content/picker.js",
                 "assets/js/content/main.js"
             ],
@@ -47,17 +50,37 @@
         }
     ],
     "options_page": "src/options.html",
+    "commands": {
+        "quick-select": {
+            "suggested_key": {
+                "default": "Alt+Shift+B"
+            },
+            "description": "__MSG_commandQuickSelect__"
+        },
+        "start-select": {
+            "suggested_key": {
+                "default": "Alt+Shift+E"
+            },
+            "description": "__MSG_commandStartSelect__"
+        }
+    },
     "permissions": [
-        "activeTab",
         "tabs",
         "storage",
         "contextMenus",
-        "background",
         "unlimitedStorage",
         "declarativeNetRequest",
         "declarativeNetRequestWithHostAccess",
-        "declarativeNetRequestFeedback"
+        "webNavigation",
+        "alarms",
+        "identity"
     ],
+    "oauth2": {
+        "client_id": "YOUR_GOOGLE_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/drive.file"
+        ]
+    },
     "host_permissions": [
         "<all_urls>"
     ],
@@ -74,9 +97,24 @@
                 "path": "assets/block/hostRules.json"
             },
             {
-                "id": "ruleset_3",
+                "id": "ruleset_3a",
                 "enabled": true,
-                "path": "assets/block/jerryn70HostsRulesYT.json"
+                "path": "assets/block/jerryn70HostsRulesYT-1.json"
+            },
+            {
+                "id": "ruleset_3b",
+                "enabled": true,
+                "path": "assets/block/jerryn70HostsRulesYT-2.json"
+            },
+            {
+                "id": "ruleset_3c",
+                "enabled": true,
+                "path": "assets/block/jerryn70HostsRulesYT-3.json"
+            },
+            {
+                "id": "ruleset_3d",
+                "enabled": true,
+                "path": "assets/block/jerryn70HostsRulesYT-4.json"
             },
             {
                 "id": "ruleset_4",

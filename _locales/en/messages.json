@@ -1,156 +1,187 @@
 {
   "appName": {
-    "message": "Cài đặt TBlock"
+    "message": "TBlock Setting",
+    "description": "The title of the options page."
+  },
+  "appDescription": {
+    "message": "Block elements, classes, ids... on web pages"
   },
   "generalSettingMenu": {
-    "message": "Cài đặt chung"
+    "message": "General setting"
   },
   "blockingSelectorMenu": {
-    "message": "Chặn theo selector"
+    "message": "Blocking selector"
   },
   "blockingElementMenu": {
-    "message": "Chặn theo phần tử"
+    "message": "Blocking element"
   },
   "blockHostMenu": {
-    "message": "Chặn host"
+    "message": "Block host"
   },
   "userGuideMenu": {
-    "message": "Hướng dẫn sử dụng"
+    "message": "User guide"
   },
   "aboutMeMenu": {
-    "message": "Về tôi"
+    "message": "About me"
   },
   "generalSettingTitle": {
-    "message": "Cài đặt chung"
+    "message": "General setting"
   },
   "quickBlockSettingTitle": {
-    "message": "Cài đặt chặn nhanh"
+    "message": "Quick block setting"
   },
   "showBlockDialogLabel": {
-    "message": "Hiển thị hộp thoại chặn"
+    "message": "Show block dialog"
   },
   "defaultQuickBlockLabel": {
-    "message": "Chặn nhanh mặc định (Thiết lập nếu bạn ẩn bảng chọn trong chặn nhanh):"
+    "message": "Default quick block (Set if you hide block panel in quick block):"
   },
   "blockTypeTableHeader": {
-    "message": "Kiểu chặn"
+    "message": "Block type"
   },
   "actionTableHeader": {
-    "message": "Hành động"
+    "message": "Action"
   },
   "unblockCopySettingTitle": {
-    "message": "Cài đặt mở khóa sao chép"
+    "message": "Unblock copy setting"
   },
   "enableUnblockCopyLabel": {
-    "message": "Bật mở khóa sao chép"
+    "message": "Enable unblock copy"
   },
   "unblockCopyLevelLabel": {
-    "message": "Cấp độ mở khóa sao chép (khuyến nghị 4):"
+    "message": "Unblock copy level (recommend 4):"
   },
   "unblockScrollSettingTitle": {
-    "message": "Cài đặt mở khóa cuộn"
+    "message": "Unblock scroll setting"
   },
   "enableUnblockScrollLabel": {
-    "message": "Bật mở khóa cuộn:"
+    "message": "Enable unblock scroll:"
   },
   "unblockScrollLevelLabel": {
-    "message": "Cấp độ mở khóa cuộn:"
+    "message": "Unblock scroll level:"
   },
   "blockingSelectorTitle": {
-    "message": "Chặn theo selector"
+    "message": "Blocking selector"
   },
   "enableEditTextLabel": {
-    "message": "Bật chỉnh sửa dưới dạng văn bản thô (có thể nhanh nhưng dễ nhầm lẫn - đọc hướng dẫn)"
+    "message": "Enable edit as raw text (it can be quick but you can get more confused - read the user guild)"
   },
   "addNewRuleButton": {
-    "message": "Thêm quy tắc mới"
+    "message": "Add new rule"
   },
   "importRuleButton": {
-    "message": "Nhập quy tắc"
+    "message": "Import rule"
   },
   "exportRuleButton": {
-    "message": "Xuất quy tắc"
+    "message": "Export rule"
   },
   "saveButton": {
-    "message": "Lưu"
+    "message": "Save"
   },
   "removeButton": {
-    "message": "Xóa"
+    "message": "Remove"
   },
   "editButton": {
-    "message": "Sửa"
+    "message": "Edit"
   },
   "cancelButton": {
-    "message": "Hủy"
+    "message": "Cancel"
   },
   "blockHostTitle": {
-    "message": "Chặn host"
+    "message": "Block host"
   },
   "userGuideTitle": {
-    "message": "Hướng dẫn sử dụng"
+    "message": "User guide"
   },
   "userGuideSubtitle": {
-    "message": "các liên kết youtube dưới đây sẽ giúp bạn hiểu cách sử dụng công cụ này"
+    "message": "youtube links below will help you to understand how to use this tool"
   },
   "videoQuickBlock": {
-    "message": "chặn nhanh, cài đặt chặn nhanh"
+    "message": "quick block, quick block setting"
   },
   "videoUnblock": {
-    "message": "mở khóa sao chép, mở khóa cuộn và cài đặt của chúng"
+    "message": "unblock copy, unblock-scroll, and their setting"
   },
   "videoBlocking": {
-    "message": "chặn selector, chặn phần tử và cài đặt"
+    "message": "blocking selector, blocking element and setting"
   },
   "aboutMeTitle": {
-    "message": "Về tôi"
+    "message": "About me"
   },
   "creatorInfo": {
-    "message": "Người tạo: Hoàng Minh Tâm"
+    "message": "Creater: Hoàng Minh Tâm"
   },
   "contactMe": {
-    "message": "Bạn có thể liên hệ với tôi qua:"
+    "message": "You can contact me by:"
   },
   "noDataAvailable": {
-    "message": "Không có dữ liệu"
+    "message": "No data"
   },
   "errorTitle": {
-    "message": "Lỗi"
+    "message": "Error"
   },
   "successTitle": {
-    "message": "Thành công"
+    "message": "Success"
+  },
+  "blockElementSuccess": {
+    "message": "Element blocked"
+  },
+  "undoButton": {
+    "message": "Undo"
+  },
+  "copiedMessage": {
+    "message": "Copied to clipboard"
+  },
+  "selectorSuggested": {
+    "message": "Optimal selector applied"
+  },
+  "copyCssButton": {
+    "message": "⧉ CSS"
+  },
+  "copyXPathButton": {
+    "message": "⧉ XPath"
+  },
+  "suggestSelectorButton": {
+    "message": "★ Suggest"
+  },
+  "blockSimilarButton": {
+    "message": "Block similar"
+  },
+  "multiPickLabel": {
+    "message": "Pick next after block"
   },
   "fillAllFieldsError": {
-    "message": "Vui lòng điền tất cả các trường"
+    "message": "Please fill all fields"
   },
   "saveSuccessMessage": {
-    "message": "Lưu thành công"
+    "message": "Saved successfully"
   },
   "importSuccessMessage": {
-    "message": "Nhập thành công"
+    "message": "Import successfully"
   },
   "importFailedMessage": {
-    "message": "Nhập thất bại"
+    "message": "Import failed"
   },
   "noRuleDataError": {
-    "message": "Không có dữ liệu định nghĩa cho quy tắc này"
+    "message": "There is no definition data of this rule"
   },
   "invalidDataFormatError": {
-    "message": "Định dạng dữ liệu không hợp lệ"
+    "message": "The data format is invalid"
   },
   "rulesNotValidError": {
-    "message": "Các quy tắc không hợp lệ"
+    "message": "The rules are not valid"
   },
   "errorWhileSaving": {
-    "message": "Lỗi trong khi lưu"
+    "message": "Error while saving"
   },
   "removeSelectorType": {
-    "message": "Xóa selector"
+    "message": "Remove selector"
   },
   "removeElementType": {
-    "message": "Xóa phần tử"
+    "message": "Remove element"
   },
   "createdAtTooltip": {
-    "message": "Tạo lúc: $CREATE_AT$",
+    "message": "Created at: $CREATE_AT$",
     "placeholders": {
       "create_at": {
         "content": "$1",
@@ -159,7 +190,7 @@
     }
   },
   "languageLabel": {
-    "message": "Ngôn ngữ"
+    "message": "Language"
   },
   "somethingWentWrong": {
     "message": "Something went wrong, please try again later."
@@ -191,6 +222,288 @@
   "quitButton": {
     "message": "Quit"
   },
+  "applyButton": {
+    "message": "Apply"
+  },
+  "selectorNotFoundError": {
+    "message": "No element matches this selector"
+  },
+  "searchRulesPlaceholder": {
+    "message": "Search host or selector..."
+  },
+  "noMatchingRules": {
+    "message": "No matching rules"
+  },
+  "confirmClearData": {
+    "message": "Delete ALL rules and settings? This cannot be undone."
+  },
+  "framePickButton": {
+    "message": "🖼 Frame"
+  },
+  "noFramesFound": {
+    "message": "No iframes found"
+  },
+  "ytHideShortsLabel": {
+    "message": "Hide Shorts"
+  },
+  "ytHideCommentsLabel": {
+    "message": "Hide comments"
+  },
+  "ytHideSidebarLabel": {
+    "message": "Hide suggested videos sidebar"
+  },
+  "blockedPageRule": {
+    "message": "Matched rule"
+  },
+  "blockedPageFocusRule": {
+    "message": "Blocked by Focus mode"
+  },
+  "blockedPageFocusUntil": {
+    "message": "Focus mode ends at"
+  },
+  "blockedPageReportFp": {
+    "message": "⚠ False positive"
+  },
+  "blockedPageFpThanks": {
+    "message": "Reported, thank you!"
+  },
+  "openBgTabButton": {
+    "message": "Open in bg tab"
+  },
+  "allowOnceButton": {
+    "message": "Allow once"
+  },
+  "pinLockTitle": {
+    "message": "TBlock is locked"
+  },
+  "pinLockHint": {
+    "message": "Enter PIN to open settings"
+  },
+  "pinInputPlaceholder": {
+    "message": "Enter PIN"
+  },
+  "pinUnlockButton": {
+    "message": "Unlock"
+  },
+  "pinWrong": {
+    "message": "Wrong PIN, try again"
+  },
+  "pinSettingsTitle": {
+    "message": "Lock settings with PIN"
+  },
+  "pinSettingsHint": {
+    "message": "Set a PIN to lock the settings page (min 4 chars)."
+  },
+  "pinSetButton": {
+    "message": "Set PIN"
+  },
+  "pinRemoveButton": {
+    "message": "Remove PIN"
+  },
+  "pinTooShort": {
+    "message": "PIN must be at least 4 characters"
+  },
+  "pinSetSuccess": {
+    "message": "PIN set"
+  },
+  "pinRemoveConfirm": {
+    "message": "Remove PIN lock?"
+  },
+  "ruleTesterPlaceholder": {
+    "message": "Enter a selector to test, e.g. .ad-banner"
+  },
+  "ruleTesterButton": {
+    "message": "Test on current tab"
+  },
+  "popupBrokenSite": {
+    "message": "A rule broke this site"
+  },
+  "brokenSiteTitle": {
+    "message": "Rules active on this site (⏸ to disable):"
+  },
+  "quotaTitle": {
+    "message": "Storage quota"
+  },
+  "quotaHint": {
+    "message": "Chrome limits sync storage to 100KB. Exceeding it causes rule-save errors."
+  },
+  "pauseTitle": {
+    "message": "Pause blocking"
+  },
+  "pauseUntilTomorrow": {
+    "message": "⏸ until tomorrow"
+  },
+  "annoyancesTitle": {
+    "message": "Annoyances pack"
+  },
+  "annoyancesHint": {
+    "message": "Auto-block common annoying elements. One-click enable."
+  },
+  "annoyancesCookieLabel": {
+    "message": "Cookie / consent banners"
+  },
+  "annoyancesNewsletterLabel": {
+    "message": "Newsletter / signup popups"
+  },
+  "annoyancesStickyVideoLabel": {
+    "message": "Sticky videos"
+  },
+  "exceptionsTitle": {
+    "message": "Exceptions (never block)"
+  },
+  "exceptionsHint": {
+    "message": "Elements matching these selectors won't be blocked even if another rule matches."
+  },
+  "exceptionAddButton": {
+    "message": "Add exception"
+  },
+  "focusModeTitle": {
+    "message": "Focus mode (scheduled blocking)"
+  },
+  "focusModeHint": {
+    "message": "During focus hours, listed sites will be blocked."
+  },
+  "focusModeEnableLabel": {
+    "message": "Enable focus mode"
+  },
+  "focusModeStartLabel": {
+    "message": "Start"
+  },
+  "focusModeEndLabel": {
+    "message": "End"
+  },
+  "focusModeHostsPlaceholder": {
+    "message": "facebook.com\nyoutube.com\none host per line"
+  },
+  "focusModeSaved": {
+    "message": "Focus mode saved"
+  },
+  "backupTitle": {
+    "message": "Backup & Restore"
+  },
+  "backupHint": {
+    "message": "Export all rules + settings to a single JSON file, or restore from file."
+  },
+  "backupAllButton": {
+    "message": "⬇ Download backup"
+  },
+  "restoreBackupButton": {
+    "message": "⬆ Restore from file"
+  },
+  "driveBackupButton": {
+    "message": "☁ Backup to Drive"
+  },
+  "autoBackupLocalLabel": {
+    "message": "Auto-backup daily (stored locally)"
+  },
+  "lastBackupLabel": {
+    "message": "Last backup"
+  },
+  "backupSuccess": {
+    "message": "Backup file created"
+  },
+  "backupFailed": {
+    "message": "Backup failed"
+  },
+  "backupInvalid": {
+    "message": "Invalid backup file"
+  },
+  "restoreBackupConfirm": {
+    "message": "Overwrite all current rules and settings with this backup?"
+  },
+  "driveOAuthUnavailable": {
+    "message": "Configure OAuth client ID in manifest.json first"
+  },
+  "driveAuthFailed": {
+    "message": "Google sign-in failed"
+  },
+  "driveBackupSuccess": {
+    "message": "Backed up to Google Drive"
+  },
+  "driveBackupFailed": {
+    "message": "Drive backup failed"
+  },
+  "ublockImportTitle": {
+    "message": "Import uBlock Origin filters"
+  },
+  "ublockImportHint": {
+    "message": "Paste your uBlock Origin \"My filters\" content. Supports domain##selector and ||domain^."
+  },
+  "ublockImportPlaceholder": {
+    "message": "example.com##.ad-banner\n||ads.example.com^"
+  },
+  "ublockImportButton": {
+    "message": "Import filters"
+  },
+  "filterSubsTitle": {
+    "message": "Subscribe filter lists"
+  },
+  "filterSubsHint": {
+    "message": "Add filter list URLs (uBlock/Adblock format). Auto-updates every 12 hours."
+  },
+  "filterSubAddButton": {
+    "message": "Add"
+  },
+  "filterSubEmpty": {
+    "message": "No subscriptions yet"
+  },
+  "filterSubUpdateButton": {
+    "message": "Update now"
+  },
+  "filterSubInvalidUrl": {
+    "message": "Invalid URL"
+  },
+  "duplicateRuleWarning": {
+    "message": "Warning: a duplicate or nested rule already exists for this selector"
+  },
+  "trashMenu": {
+    "message": "Trash"
+  },
+  "trashHint": {
+    "message": "Deleted rules are kept for 30 days and can be restored."
+  },
+  "emptyTrashButton": {
+    "message": "Empty trash"
+  },
+  "trashDeletedAtHeader": {
+    "message": "Deleted at"
+  },
+  "trashEmpty": {
+    "message": "Trash is empty"
+  },
+  "restoreButton": {
+    "message": "Restore"
+  },
+  "deleteForeverButton": {
+    "message": "Delete forever"
+  },
+  "groupTableHeader": {
+    "message": "Group"
+  },
+  "statusTableHeader": {
+    "message": "Status"
+  },
+  "bulkEnable": {
+    "message": "Enable selected"
+  },
+  "bulkDisable": {
+    "message": "Disable selected"
+  },
+  "bulkDelete": {
+    "message": "Delete selected"
+  },
+  "bulkSetGroup": {
+    "message": "Set group"
+  },
+  "commandQuickSelect": {
+    "message": "Quick-block element (quick select)"
+  },
+  "commandStartSelect": {
+    "message": "Open element picker"
+  },
+  "statsBlockedOnSite": {
+    "message": "Blocked on this site"
+  },
   "relativeFilterTitle": {
     "message": "Relative filter"
   },
@@ -216,7 +529,13 @@
     "message": "Blocked popups"
   },
   "blockedPopupsHelp": {
-    "message": "Popups blocked on websites are listed here. Allow a host to open it and skip blocking next time. Google downloads are allowed by default."
+    "message": "Blocked popups and cross-domain navigations are listed here. Allow a host to open it and skip blocking next time."
+  },
+  "blockCrossDomainNavLabel": {
+    "message": "Block new tabs / navigation to other domains"
+  },
+  "blockCrossDomainNavHelp": {
+    "message": "On by default. When a page tries to open a new tab or redirect to another domain, TBlock blocks it. Same-domain links still work. File downloads you click are still allowed."
   },
   "allowedPopupHostsTitle": {
     "message": "Allowed popup hosts"
@@ -232,5 +551,128 @@
   },
   "popupBlockedNotice": {
     "message": "Blocked popup"
+  },
+  "youtubeAdSettingTitle": {
+    "message": "YouTube ads"
+  },
+  "youtubeAdSettingHelp": {
+    "message": "During ads, TBlock speeds up playback. Auto-clicking Skip is optional and off by default."
+  },
+  "youtubeAdPlaybackRateLabel": {
+    "message": "Ad playback speed"
+  },
+  "youtubeAdAutoSkipLabel": {
+    "message": "Auto-click Skip"
+  },
+  "youtubeAdAutoSkipHelp": {
+    "message": "Off by default. Turning this on may make YouTube detect ad skipping more easily."
+  },
+  "blockedPageTitle": {
+    "message": "This page was blocked by TBlock"
+  },
+  "blockedPageDesc": {
+    "message": "This host is in the block list. You can remove it from the rules here."
+  },
+  "blockedPageUnblock": {
+    "message": "Unblock and continue"
+  },
+  "blockedPageBack": {
+    "message": "Go back"
+  },
+  "blockedPageUnknownHost": {
+    "message": "Unknown host"
+  },
+  "unblockedHostsTitle": {
+    "message": "Unblocked hosts"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "popupTogglePower": {
+    "message": "Toggle extension on this site"
+  },
+  "popupReloadPage": {
+    "message": "Reload page"
+  },
+  "popupQuickBlock": {
+    "message": "Quick block"
+  },
+  "popupStartSelect": {
+    "message": "Start select"
+  },
+  "popupSettings": {
+    "message": "Settings"
+  },
+  "popupMore": {
+    "message": "More"
+  },
+  "popupUnblockCopy": {
+    "message": "Unblock copy"
+  },
+  "popupUnblockScroll": {
+    "message": "Unblock scroll"
+  },
+  "popupUnblockBlur": {
+    "message": "Unblock blur"
+  },
+  "popupUnblockContextMenu": {
+    "message": "Unblock context menu"
+  },
+  "popupYoutubeUnstoppable": {
+    "message": "YouTube unstoppable"
+  },
+  "popupClearData": {
+    "message": "Clear data"
+  },
+  "popupRate": {
+    "message": "Rate"
+  },
+  "blockYoutubeChannelMenu": {
+    "message": "Block YouTube channel"
+  },
+  "blockYoutubeChannelTitle": {
+    "message": "Block YouTube channel"
+  },
+  "blockYoutubeChannelHelp": {
+    "message": "Hide videos and content from blocked channels across YouTube (home, search, watch, Shorts, miniplayer, channel pages). Use the exact @handle shown on the channel (example: @samuriceaudio)."
+  },
+  "blockYoutubeChannelPlaceholder": {
+    "message": "Exact @handle, channel URL, or UC…"
+  },
+  "blockYoutubeChannelAddButton": {
+    "message": "Block channel"
+  },
+  "blockYoutubeChannelColumn": {
+    "message": "Channel"
+  },
+  "blockYoutubeChannelRemoveButton": {
+    "message": "Remove"
+  },
+  "blockYoutubeChannelInvalid": {
+    "message": "Invalid channel. Use @handle, /channel/UC…, or a channel URL."
+  },
+  "youtubeChannelBlockedPage": {
+    "message": "This YouTube channel is blocked by TBlock."
+  },
+  "youtubeChannelBlockedVideo": {
+    "message": "This video is from a channel blocked by TBlock."
+  },
+  "youtubeChannelHomeButton": {
+    "message": "Go to home"
+  },
+  "youtubeChannelBlockButton": {
+    "message": "Block channel"
+  },
+  "youtubeChannelBlockedButton": {
+    "message": "Channel blocked"
   }
 }
