@@ -1,7 +1,7 @@
 {
     "name": "TBlock",
     "description": "__MSG_appDescription__",
-    "version": "1.0.6.18",
+    "version": "1.0.6.29",
     "default_locale": "vi",
     "icons": {
         "16": "assets/image/icon-16.png",

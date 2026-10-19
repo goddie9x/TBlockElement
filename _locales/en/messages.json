@@ -94,7 +94,7 @@
     "message": "User guide"
   },
   "userGuideSubtitle": {
-    "message": "youtube links below will help you to understand how to use this tool"
+    "message": "detailed guide for each feature, with examples"
   },
   "videoQuickBlock": {
     "message": "quick block, quick block setting"
@@ -545,6 +545,9 @@
   },
   "allowPopupButton": {
     "message": "Allow"
+  },
+  "dontAskAgain": {
+    "message": "Don't ask again"
   },
   "revokePopupAllowButton": {
     "message": "Block again"

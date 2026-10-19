@@ -93,7 +93,7 @@
     "message": "Hướng dẫn sử dụng"
   },
   "userGuideSubtitle": {
-    "message": "các liên kết youtube dưới đây sẽ giúp bạn hiểu cách sử dụng công cụ này"
+    "message": "hướng dẫn chi tiết từng tính năng, có ví dụ minh họa"
   },
   "videoQuickBlock": {
     "message": "chặn nhanh, cài đặt chặn nhanh"
@@ -544,6 +544,9 @@
   },
   "allowPopupButton": {
     "message": "Cho phép"
+  },
+  "dontAskAgain": {
+    "message": "Không hỏi lại"
   },
   "revokePopupAllowButton": {
     "message": "Chặn lại"
