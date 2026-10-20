@@ -547,7 +547,7 @@
     "message": "Allow"
   },
   "dontAskAgain": {
-    "message": "Don't ask again"
+    "message": "Don't ask again on this site"
   },
   "revokePopupAllowButton": {
     "message": "Block again"
